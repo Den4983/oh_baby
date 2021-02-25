@@ -13,6 +13,7 @@ namespace UI_Design
         public string LastName { get; set; }
         public DateTime Birthday { get; set; }
         //public int Id_Parent { get; set; }
+        public virtual ICollection<Image> Images  { get; set; }
 
         public Parent Parent { get; set; }
     }

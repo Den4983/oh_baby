@@ -43,7 +43,8 @@ namespace UI_Design
             db.Parents.Load();
             db.Childs.Load();
             db.Growth_Weights.Load();
-
+            db.Images.Load();
+            
             string connString = ConfigurationManager //вроде бы не используется, нужно?
               .ConnectionStrings["defaultConnection"] //вроде бы не используется, нужно?
               .ConnectionString; //вроде бы не используется, нужно?

@@ -83,6 +83,7 @@
     </Compile>
     <Compile Include="GetDataDB.cs" />
     <Compile Include="Growth_Weight.cs" />
+    <Compile Include="Image.cs" />
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>

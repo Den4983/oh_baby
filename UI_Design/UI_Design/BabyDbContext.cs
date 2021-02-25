@@ -17,5 +17,7 @@ namespace UI_Design
         public DbSet<Parent> Parents { get; set; }
         public DbSet<Child> Childs { get; set; }
         public DbSet<Growth_Weight> Growth_Weights { get; set; }
+
+        public DbSet<Image> Images { get; set; }
     }
 }
